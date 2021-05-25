@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Orelega+One&display=swap');
+header{
+    background-color:#2d545e;
+    position:absolute;
+    left: 0;  
+    right: 0;  
+    top: 5px;  
+    height: 100px;  
+    display: flex;  
+    align-items: center;  
+    font-family: 'Julius Sans One', sans-serif;
+    font-size:26px;
+}
+header * {  
+    display: inline;  
+}  
+header li {  
+    margin: 20px; 
+    display:inline-block;
+}  
+header li a {  
+    color:#EAC4A1;  
+    text-decoration: none ;  
+    display: inline-block;
+}
+header ul li a:hover {
+    border-bottom:1px solid #e3b68a;
+}
+body{
+    background-color:#e3b68a;
+    margin-top: 0px;  
+    padding:0px;  
+    min-height: 100%;
+}
+.home{
+    justify-content:space-evenly;
+    display:flex;
+}
+.h_m{
+    border: #2d545e 5px double ;
+    border-radius: 5px;
+    height:832px;
+    width:1300px;
+    box-shadow: -8px 8px 4px #d1a477;
+}
+.ho{
+    text-shadow: -6px 6px 2px #d1a477;
+    text-align: center;
+    font-size:28px ;
+    font-family: 'Julius Sans One', sans-serif;
+    color:#2d545e;
+}
+.GeneratedImage{
+    height:832px;
+    width:1300;
+}
+.b{
+    text-align: center;
+    font-size:28px ;
+    font-family: 'Goudy Bookletter 1911', serif;
+    border: 2px dotted #2d545e;
+    color:#1e3b42
+}
+.bio{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row
+}
+.b_o{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row
+}
+.bio1{
+    text-align: center;
+    font-size:20.5px ;
+    font-family: 'Goudy Bookletter 1911', serif;
+    border: 2px solid #2d545e;
+    border-radius: 5px;
+    margin:2px;
+    padding: 0.5em;
+    width: 380px;
+    color: #1e3b42;
+    list-style: none;
+}
+.dbsn{
+    background-color: #2d545e;
+    color:#EAC4A1;
+    text-align: center;
+}
+.bio2{
+    font-size:20.5px ;
+    font-family: 'Goudy Bookletter 1911', serif;
+    border: 2px solid #2d545e;
+    border-radius: 5px;
+    margin:2px;
+    padding: 0.5em;
+    width: auto;
+    color: #1e3b42;
+    list-style: none;
+}
+.data1{
+    background-color: #2d545e;
+    color: #EAC4A1;
+}
+.bio3{
+    text-align: left;
+}
+.bio4{
+    text-align: center;
+    font-size:20.5px ;
+    font-family: 'Goudy Bookletter 1911', serif;
+    border: 2px solid #2d545e;
+    border-radius: 5px;
+    margin:2px;
+    padding: 0.5em;
+    width: auto;
+    color: #1e3b42;
+    list-style: none;
+}
